@@ -1,0 +1,34 @@
+{{#if gameModel.length}}
+	<div class='row'>
+		{{#each gameModel}}
+			<div class='col s12 m12 l5 xl4'>
+				<div class='card'>
+					<div class='card-image'>
+						<img src='{{img}}' alt='{{title}}' />
+					</div>
+					<div class='card-content'>
+						<span class='card-title' style='font-size: 1.1rem;'>{{title}}</span>
+						<span class='card-title' style='font-size: 0.9rem;'>{{genre}}</span>
+						<p class='price_game'>{{price}}</p>
+					</div>
+					<div class='card-action actions'>
+						<a href='/list/one/{{id}}' target='_blank'>Open info</a>
+						{{#if @root.isAuth}}
+							<a href='/list/{{id}}/edit?allow=true'>Edit</a>
+							<form action='/cart/add' method='POST' class='form_cart'>
+								<input type='hidden' name='id' value='{{id}}' />
+								<input type='hidden' name='_csrf' value='{{@root.csrf}}' />
+
+								<button type='submit' class='btn btn-primary btn-cart'>Add to cart </button>
+							</form>
+						{{/if}}
+					</div>
+				</div>
+			</div>
+
+		{{/each}}
+	</div>
+
+{{else}}
+	<p>Not Found gameModels</p>
+{{/if}}

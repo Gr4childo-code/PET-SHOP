@@ -1,0 +1,17 @@
+[{
+  "_id": "QbYpu5sP_NiRoCL0ULZdsNVI3tvN45sv",
+  "expires": {
+    "$date": {
+      "$numberLong": "1664436369863"
+    }
+  },
+  "session": "{\"cookie\":{\"originalMaxAge\":null,\"expires\":null,\"httpOnly\":true,\"path\":\"/\"},\"csrfSecret\":\"iyiPOUxTFmPc5p-4yVnCUnW2\",\"user\":{\"cart\":{\"items\":[]},\"_id\":\"6322d2de1d02d82f7b92cc95\",\"email\":\"ul@gmail.com\",\"password\":\"$2a$10$cpMSKDt6Dlo5GTuCz0KgMOS9YNJyGS6iCQO54EsZn1ipgDVbjy4lm\",\"username\":\"ul\",\"img\":\"https://bazametrov.ru/uploads/new-agency/default_logo_user.jpg\",\"role\":\"user\",\"__v\":0},\"isAuthenticated\":true,\"isRooted\":false}"
+},{
+  "_id": "vzHpSyCAg6D3nvcrn1FJVwAyntU4dThz",
+  "expires": {
+    "$date": {
+      "$numberLong": "1664898680977"
+    }
+  },
+  "session": "{\"cookie\":{\"originalMaxAge\":null,\"expires\":null,\"httpOnly\":true,\"path\":\"/\"},\"csrfSecret\":\"QSoiXqGqcbqw-sV4rDsEOAfs\"}"
+}]

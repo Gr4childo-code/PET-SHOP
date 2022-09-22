@@ -1,0 +1,78 @@
+body {
+	background: rgb(209, 196, 233);
+	background: linear-gradient(180deg, rgba(209, 196, 233, 1) 10%, rgba(134, 120, 237, 1) 65%);
+	font-family: 'Rubik Dirt', cursive;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+main {
+	flex: 1 0 auto;
+}
+
+.nav-wrapper {
+	padding: 0 2rem;
+	background: rgb(209, 196, 233);
+	background: linear-gradient(120deg, rgba(209, 196, 233, 1) 10%, rgba(134, 120, 237, 1) 99%);
+	font-family: 'Rubik Dirt', cursive;
+}
+
+.sidenav {
+	opacity: 0.9;
+	font-size: 1.2rem;
+}
+
+.input-field label {
+	font-size: 1.2rem;
+}
+
+.btn {
+	font-family: 'Rubik Dirt', cursive;
+}
+.btn.btn-primary {
+	opacity: 0.7;
+	background: #651fff;
+	color: white;
+	font-family: 'Rubik Dirt', cursive;
+}
+
+.price_game {
+	font-size: 2rem;
+	color: red;
+}
+
+.card-action.actions {
+	font-size: 1.5rem;
+}
+
+.btn.btn-primary.btn-cart {
+	display: block;
+	width: 100%;
+	font-size: 2rem;
+}
+
+.form_cart {
+	padding-top: 5%;
+}
+
+.input-field label {
+	color: black;
+}
+.dropdown-content {
+	background: rgb(209, 196, 233);
+	background: linear-gradient(180deg, rgba(209, 196, 233, 1) 10%, rgba(134, 120, 237, 1) 65%);
+	text-align: center;
+}
+.page-footer {
+	background: rgb(209, 196, 233);
+	background: linear-gradient(120deg, rgba(209, 196, 233, 1) 10%, rgba(134, 120, 237, 1) 99%);
+}
+.auth {
+	padding-top: 1rem;
+}
+.tabs_auth {
+	background: linear-gradient(120deg, rgba(209, 196, 233, 1) 10%, rgba(134, 120, 237, 1) 99%);
+}
+.tabs .tab a {
+	color: aliceblue;
+}

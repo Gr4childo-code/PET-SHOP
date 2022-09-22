@@ -1,0 +1,37 @@
+<div class='row'>
+	<form action='/user' method='post' class='col s12'>
+		<div class='row'>
+			<div class='input-field col s12'>
+				<input id='user_name' type='text' name='username' class='validate' />
+				<label for='user_name'>Username</label>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='input-field col s12'>
+				<input id='user_email' type='email' name='email' class='validate' />
+				<label for='user_email'>Email</label>
+			</div>
+		</div>
+
+		<div class='row'>
+			<div class='input-field col s12'>
+				<input id='user_password' type='password' name='password' class='validate' />
+				<label for='user_password'>Password</label>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='input-field col s12'>
+				<select name='role'>
+					<option value='' disabled selected>Choose your option</option>
+					<option value='user'>Option User</option>
+					<option value='root'>Option root</option>
+				</select>
+				<label>Materialize Select</label>
+			</div>
+		</div>
+		<input type='hidden' name='_csrf' value='{{@root.csrf}}' />
+		<button type='submit' class='btn btn-primary'>Register</button>
+
+	</form>
+</div>

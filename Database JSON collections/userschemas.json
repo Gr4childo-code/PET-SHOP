@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "6304d950f0d73e5e69b12334"
+  },
+  "email": "root@gmail.com",
+  "password": "$2a$10$vL78LK4Acr34GPt2RMIGteRFUSXsG1wlbKbfdEeJ/.QX./zU.CfFm",
+  "username": "root",
+  "img": "https://bazametrov.ru/uploads/new-agency/default_logo_user.jpg",
+  "role": "root",
+  "cart": {
+    "items": []
+  },
+  "__v": 1
+},{
+  "_id": {
+    "$oid": "6304df7f90efa0102ab4c53f"
+  },
+  "email": "samohkin.2012@gmail.com",
+  "password": "$2a$10$ypngj/9gys8QufIsEzh5iO1Q0c7loGYVgQNRcTAtH1C3n3DshP.oK",
+  "username": "Ulysses",
+  "img": "https://bazametrov.ru/uploads/new-agency/default_logo_user.jpg",
+  "role": "user",
+  "cart": {
+    "items": []
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6329cbb2afd2e1f115a59b45"
+  },
+  "email": "123@gmail.com",
+  "password": "$2a$10$D/oUIfMAsyjSeTMbvJac0O.10h/aItCrFzjFIRW1Xu3Hi1.PD0gZu",
+  "username": "123",
+  "img": "https://bazametrov.ru/uploads/new-agency/default_logo_user.jpg",
+  "role": "user",
+  "cart": {
+    "items": [
+      {
+        "count": 1,
+        "gameID": {
+          "$oid": "62ff89cd138b3b6dd460391d"
+        },
+        "allPrice": 1999,
+        "priceGame": 1999,
+        "_id": {
+          "$oid": "6329d5bddd3b9e682e3565fe"
+        }
+      }
+    ]
+  },
+  "__v": 18
+}]

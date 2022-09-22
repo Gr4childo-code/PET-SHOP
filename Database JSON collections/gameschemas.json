@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "62ff7b21d03e489730334939"
+  },
+  "title": "Dying Light 2: Stay Human",
+  "genre": "survival horror",
+  "img": "https://go-keys.ru/templates/main/posters/game/dl2.jpg",
+  "price": 3999,
+  "userID": {
+    "$oid": "62fe1dd786cda9fe7da1711f"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62ff89cd138b3b6dd460391d"
+  },
+  "title": "The Outer Worlds",
+  "genre": "Action/RPG",
+  "img": "https://www.abcgames.sk/udaje/wallpapery/322/32213.jpg",
+  "price": 1999,
+  "userID": {
+    "$oid": "62fe1dd786cda9fe7da1711f"
+  },
+  "__v": 0
+}]

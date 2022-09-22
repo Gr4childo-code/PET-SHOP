@@ -1,0 +1,28 @@
+<form action='/list/list_add' method='POST'>
+	<div class='input-field'>
+		<input id='title_game' name='title' type='text' class='validate' />
+		<label for='title_game'>Название игры</label>
+		<span class='helper-text' data-error='Type title'></span>
+	</div>
+
+	<div class='input-field'>
+		<input id='genre_game' name='genre' type='text' class='validate' />
+		<label for='genre_game'>Жанр игры</label>
+		<span class='helper-text' data-error='Type genre'></span>
+	</div>
+
+	<div class='input-field'>
+		<input id='img_game' name='img' type='text' class='validate' />
+		<label for='img_game'>URL картинки игры</label>
+		<span class='helper-text' data-error='Type url'></span>
+	</div>
+
+	<div class='input-field'>
+		<input id='price_game' name='price' type='number' class='validate' />
+		<label for='price_game'>Цена игры</label>
+		<span class='helper-text' data-error='Type price'></span>
+	</div>
+	<input type='hidden' name='_csrf' value='{{@root.csrf}}' />
+
+	<button type='submit' class='btn btn-primary'>Добавить игру</button>
+</form>

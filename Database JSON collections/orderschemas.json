@@ -1,0 +1,200 @@
+[{
+  "_id": {
+    "$oid": "6304e9546eea84c4e0c21d36"
+  },
+  "games": [
+    {
+      "game": {
+        "_id": {
+          "$oid": "62ff7b21d03e489730334939"
+        },
+        "title": "Dying Light 2: Stay Human",
+        "genre": "survival horror",
+        "img": "https://go-keys.ru/templates/main/posters/game/dl2.jpg",
+        "price": 3999,
+        "userID": {
+          "$oid": "62fe1dd786cda9fe7da1711f"
+        },
+        "__v": 0
+      },
+      "count": 2,
+      "_id": {
+        "$oid": "6304e9546eea84c4e0c21d37"
+      }
+    }
+  ],
+  "user": {
+    "userID": {
+      "$oid": "6304d950f0d73e5e69b12334"
+    }
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1661266260818"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6304e9696eea84c4e0c21d4f"
+  },
+  "games": [
+    {
+      "game": {
+        "_id": {
+          "$oid": "62ff89cd138b3b6dd460391d"
+        },
+        "title": "The Outer Worlds",
+        "genre": "Action/RPG",
+        "img": "https://www.abcgames.sk/udaje/wallpapery/322/32213.jpg",
+        "price": 1999,
+        "userID": {
+          "$oid": "62fe1dd786cda9fe7da1711f"
+        },
+        "__v": 0
+      },
+      "count": 1,
+      "_id": {
+        "$oid": "6304e9696eea84c4e0c21d50"
+      }
+    },
+    {
+      "game": {
+        "_id": {
+          "$oid": "62ff7b21d03e489730334939"
+        },
+        "title": "Dying Light 2: Stay Human",
+        "genre": "survival horror",
+        "img": "https://go-keys.ru/templates/main/posters/game/dl2.jpg",
+        "price": 3999,
+        "userID": {
+          "$oid": "62fe1dd786cda9fe7da1711f"
+        },
+        "__v": 0
+      },
+      "count": 1,
+      "_id": {
+        "$oid": "6304e9696eea84c4e0c21d51"
+      }
+    }
+  ],
+  "user": {
+    "userID": {
+      "$oid": "6304d950f0d73e5e69b12334"
+    }
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1661266281514"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6304ee1f84f0bf7f3cdd8ef6"
+  },
+  "games": [
+    {
+      "game": {
+        "_id": {
+          "$oid": "62ff7b21d03e489730334939"
+        },
+        "title": "Dying Light 2: Stay Human",
+        "genre": "survival horror",
+        "img": "https://go-keys.ru/templates/main/posters/game/dl2.jpg",
+        "price": 3999,
+        "userID": {
+          "$oid": "62fe1dd786cda9fe7da1711f"
+        },
+        "__v": 0
+      },
+      "count": 1,
+      "_id": {
+        "$oid": "6304ee1f84f0bf7f3cdd8ef7"
+      }
+    }
+  ],
+  "user": {
+    "userID": {
+      "$oid": "6304df7f90efa0102ab4c53f"
+    }
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1661267487818"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6329cf2967c7b8b757b26876"
+  },
+  "games": [
+    {
+      "game": {
+        "_id": {
+          "$oid": "62ff89cd138b3b6dd460391d"
+        },
+        "title": "The Outer Worlds",
+        "genre": "Action/RPG",
+        "img": "https://www.abcgames.sk/udaje/wallpapery/322/32213.jpg",
+        "price": 1999,
+        "userID": {
+          "$oid": "62fe1dd786cda9fe7da1711f"
+        },
+        "__v": 0
+      },
+      "count": 1,
+      "_id": {
+        "$oid": "6329cf2967c7b8b757b26877"
+      }
+    }
+  ],
+  "user": {
+    "userID": {
+      "$oid": "6329cbb2afd2e1f115a59b45"
+    }
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1663684393429"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6329cf4467c7b8b757b26887"
+  },
+  "games": [
+    {
+      "game": {
+        "_id": {
+          "$oid": "62ff89cd138b3b6dd460391d"
+        },
+        "title": "The Outer Worlds",
+        "genre": "Action/RPG",
+        "img": "https://www.abcgames.sk/udaje/wallpapery/322/32213.jpg",
+        "price": 1999,
+        "userID": {
+          "$oid": "62fe1dd786cda9fe7da1711f"
+        },
+        "__v": 0
+      },
+      "count": 1,
+      "_id": {
+        "$oid": "6329cf4467c7b8b757b26888"
+      }
+    }
+  ],
+  "user": {
+    "userID": {
+      "$oid": "6329cbb2afd2e1f115a59b45"
+    }
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1663684420609"
+    }
+  },
+  "__v": 0
+}]

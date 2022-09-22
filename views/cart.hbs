@@ -1,0 +1,34 @@
+<div id='cart'>
+	{{#if gameModel.length}}
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Count</th>
+					<th>Price</th>
+					<th>All price</th>
+					<th>Use</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{#each gameModel}}
+					<tr>
+						<td>{{title}}</td>
+						<td>{{count}}</td>
+						<td>{{price}}</td>
+						<td>{{allPrice}}</td>
+						<td><button class='btn red cart-delete' data-id='{{id}}' data-csrf='{{@root.csrf}}'>Delete</button></td>
+					</tr>
+				{{/each}}
+			</tbody>
+		</table>
+		<p class='price_game'>{{price}}</p>
+		<form action='/orders' method='POST'>
+			<input type='hidden' name='_csrf' value='{{@root.csrf}}' />
+			<button type='submit' class='btn btn-primary'>Make an order</button>
+		</form>
+	{{else}}
+		<h1> Cart is EMPTY</h1>
+		<h2> Let to <a href='/list'>shop</a></h2>
+	{{/if}}
+</div>
