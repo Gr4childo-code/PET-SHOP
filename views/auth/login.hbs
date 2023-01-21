@@ -9,6 +9,9 @@
 
 		{{! LOGIN }}
 		<div id='login' class='col s6 offset-s3'>
+			{{#if isLoginError}}
+				<p class='alert'>{{isLoginError}}</p>
+			{{/if}}
 			<div class='row'>
 				<form action='/auth/login' method='post' class='col s12'>
 					<div class='row'>
@@ -22,6 +25,8 @@
 						<div class='input-field col s12'>
 							<input id='login_password' type='password' name='password' class='validate' />
 							<label for='login_password'>Password</label>
+							<span class='helper-text' data-error='Type password'>Helper text</span>
+
 						</div>
 					</div>
 
@@ -34,6 +39,9 @@
 
 		{{! REGISTER }}
 		<div id='register' class='col s6 offset-s3'>
+			{{#if isEmailError}}
+				<p class='alert'>{{isEmailError}}</p>
+			{{/if}}
 			<div class='row'>
 				<form action='/auth/register' method='post' class='col s12'>
 					<div class='row'>

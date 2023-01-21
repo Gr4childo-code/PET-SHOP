@@ -7,19 +7,21 @@ import mongoose from 'mongoose';
 import session from 'express-session';
 import MongoStore from 'connect-mongo';
 import csurf from 'csurf';
-
+import flash from 'connect-flash';
+import compression from 'compression';
 // Import Routes
-import indexRouter from './Routes/indexRouter.js';
-import listRouter from './Routes/listRouter.js';
-import cartRouter from './Routes/cartRouter.js';
-import userRouter from './Routes/userRouter.js';
-import ordersRouter from './Routes/ordersRouter.js';
-import authRouter from './Routes/authRouter.js';
+import indexRouter from './src/Routes/indexRouter.js';
+import listRouter from './src/Routes/listRouter.js';
+import cartRouter from './src/Routes/cartRouter.js';
+import userRouter from './src/Routes/userRouter.js';
+import ordersRouter from './src/Routes/ordersRouter.js';
+import authRouter from './src/Routes/authRouter.js';
 
 // Import MiddleWare
-import sessionMW from './middleware/sessionMW.js';
-import userSessionToModule from './middleware/userSessionToModule.js';
-import { authMW, authRooted } from './middleware/authMW.js';
+import sessionMW from './src/middleware/sessionMW.js';
+import userSessionToModule from './src/middleware/userSessionToModule.js';
+import { authMW, authRooted } from './src/middleware/authMW.js';
+
 //DB Connect
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'Connection ERROR'));
@@ -35,6 +37,7 @@ app.engine(
 	'hbs',
 	expressHbs.engine({
 		layoutsDir: 'views/layouts',
+		partialsDir: 'views/partials',
 		defaultLayout: 'main',
 		extname: 'hbs',
 		runtimeOptions: {
@@ -46,7 +49,7 @@ app.engine(
 app.set('view engine', 'hbs');
 app.set('views', 'views');
 
-app.use(express.static('public'));
+app.use(express.static('src/public'));
 app.use(
 	express.urlencoded({
 		extended: false,
@@ -61,6 +64,8 @@ app.use(
 	})
 );
 app.use(csurf());
+app.use(flash());
+app.use(compression());
 app.use(sessionMW);
 app.use(userSessionToModule);
 
@@ -80,7 +85,7 @@ async function startApp() {
 			useUnifiedTopology: true,
 			useNewUrlParser: true,
 		});
-		app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+		app.listen(port, () => console.log(`Example app listening on http://localhost:3000`));
 	} catch (error) {
 		console.log(error);
 	}

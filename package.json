@@ -12,17 +12,21 @@
 	"license": "ISC",
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
+		"compression": "^1.7.4",
+		"connect-flash": "^0.1.1",
 		"connect-mongo": "^4.6.0",
 		"csurf": "^1.11.0",
 		"dotenv": "^16.0.1",
 		"express": "^4.18.1",
 		"express-handlebars": "^6.0.6",
 		"express-session": "^1.17.3",
+		"express-validator": "^6.14.3",
 		"hbs": "^4.2.0",
 		"mongoose": "^6.5.2",
 		"uuid": "^8.3.2"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.19"
+		"nodemon": "^2.0.19",
+		"webpack": "^5.75.0"
 	}
 }

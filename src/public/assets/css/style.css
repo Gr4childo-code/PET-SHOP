@@ -37,6 +37,11 @@ main {
 }
 
 .price_game {
+	font-size: 1.5rem;
+	color: red;
+}
+
+.alert {
 	font-size: 2rem;
 	color: red;
 }
