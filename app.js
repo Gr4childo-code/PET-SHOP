@@ -9,6 +9,9 @@ import MongoStore from 'connect-mongo';
 import csurf from 'csurf';
 import flash from 'connect-flash';
 import compression from 'compression';
+
+// import { ClientEncryption } from 'mongodb-client-encryption';
+// import { MongoClient } from 'mongodb';
 // Import Routes
 import indexRouter from './src/Routes/indexRouter.js';
 import listRouter from './src/Routes/listRouter.js';
